@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.logo{
+  display: flex;
+  justify-content: center;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo img{  
+  width: 80%;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input{
+ text-align: center;
+ margin: 1rem; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input input{
+  height: 2rem;
+  margin: 1rem;
+  width: 50%;
+  border-radius: .5rem;
+  color: rgb(129, 33, 33);
+}
+
+.input button{
+  height: 2.25rem;
+  border-radius: 1rem;
+  background-color: #6b400b;
+  color: rgba(12, 179, 213, 0.986);
+}
+
+.location{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  background-color: #ff90c8;
+  color: rgba(95, 141, 168, 0.855);
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.locationInfo{
+  display: flex;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resident{
+  display: flex;  
+  margin: 1rem;
+  border: 1px solid #ff90c8;
+  border-radius: 1rem;
+  background-color: #fbff90;
+}
+
+.resident img{
+  width: 80%;
+  margin: 1rem 0px 1rem 1rem;  
+}
+
+
+.residentInfo{
+  width: 80%;  
+  color:rgb(234, 21, 21)
 }
