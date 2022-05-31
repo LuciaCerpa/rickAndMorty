@@ -4,8 +4,7 @@ import ResidentInfo from './ResidentInfo';
 
 
 const Location = () => {  
-    const [location, setLocation] = useState([])
-    const [resident1, setResident1] = useState({})
+    const [location, setLocation] = useState([])    
     
     const [count, setCount] = useState(0)
 
